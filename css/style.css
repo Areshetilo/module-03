@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 
-.navigation:nth-last-child {
+.navigation:nth-last-child(-n+1) {
   margin-right: 0;
 }
 
