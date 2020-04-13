@@ -4,6 +4,8 @@ body {
 
 .navigation {
   text-align: center;
+  margin: 0 auto;
+  padding: 0;
 }
 
 a {
@@ -22,24 +24,11 @@ li {
   text-transform: uppercase;
   font-family: "Playfair Display";
   font-weight: 500;
-  margin-top: 77px;
-  margin-bottom: 103px;
+  padding-bottom: 103px;
 }
 
-.first {
-  margin-right: 121px;
-}
-
-.second {
-  margin-right: 103px;
-}
-
-.third {
-  margin-right: 95px;
-}
-
-.last {
-  margin-right: 126px;
+.nav-item {
+  margin-right: 100px;
 }
 
 .container {
@@ -61,7 +50,6 @@ li {
 .name {
   text-transform: uppercase;
   padding-bottom: 12px;
-  padding-top: 16px;
   font-family: "Ubuntu", sans-serif;
   color: #c8c3b8;
   font-weight: 300;
