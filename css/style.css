@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 
-.navigation:nth-child(4) {
+.navigation:last-child {
   margin-right: 0;
 }
 
