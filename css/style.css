@@ -9,10 +9,6 @@ body {
   padding: 0;
 }
 
-.navigation:last-child {
-  margin-right: 0px;
-}
-
 a {
   text-decoration: none;
   color: #7c7c7c;
@@ -35,6 +31,10 @@ li {
 
 .nav-item {
   margin-right: 100px;
+}
+
+.nav-item:last-child {
+  margin-right: 0px;
 }
 
 .container {
